@@ -1,0 +1,30 @@
+{
+  "name": "vite-demo",
+  "version": "1.0.0",
+  "description": "vite-demo for github actions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo 'test finish'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zt123123/vite-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zt123123/vite-demo/issues"
+  },
+  "homepage": "https://zt123123.github.io/vite-demo/",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "vite": "^2.9.1"
+  }
+}
