@@ -1,4 +1,3 @@
 # vite-demo
-vite-demo for github actions
 
-[![Github Actions](https://github.com/zt123123/vite-demo/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/zt123123/vite-demo/actions/workflows/deploy.yml)
+[![Actions Status: vite demo for github actions](https://github.com/zt123123/vite-demo/workflows/vite%20demo%20for%20github%20actions/badge.svg)](https://github.com/zt123123/vite-demo/actions?query=workflow%3A"vite+demo+for+github+actions")
