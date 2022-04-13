@@ -4,8 +4,12 @@
   <router-link to="/about">about</router-link>
 </template>
 
-<script>
-export default {};
+<script setup>
+import { onMounted } from "vue";
+console.log(123);
+onMounted(() => {
+  document.addEventListener("click", console.log);
+});
 </script>
 
 <style></style>
