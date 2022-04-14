@@ -19,7 +19,11 @@ jobs:
           npm run build
       
       - name: echo runner path
-        run:  echo $GITHUB_WORKSPACE
+        run:  |
+          echo $GITHUB_WORKSPACE
+          ls dist
+          cp ./sec.txt ./dist/
+          ls dist
 
       - name: Build and Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.0
